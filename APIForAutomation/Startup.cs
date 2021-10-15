@@ -20,7 +20,7 @@ namespace APIForAutomation.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<Context>(options => options.UseSqlServer(Configuration.GetConnectionString("Connection")));
+            services.AddDbContext<Context>(options => options.UseSqlite(Configuration.GetConnectionString("ConnectionSqLite")));
             services.AddControllersWithViews();
 
             services.AddSwaggerGen(c =>

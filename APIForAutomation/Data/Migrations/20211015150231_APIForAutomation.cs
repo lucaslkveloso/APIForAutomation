@@ -11,7 +11,7 @@ namespace APIForAutomation.Api.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     ZipCode = table.Column<string>(nullable: true),
                     Street = table.Column<string>(nullable: true),
                     City = table.Column<string>(nullable: true),
@@ -27,7 +27,7 @@ namespace APIForAutomation.Api.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
                     Price = table.Column<double>(nullable: false),
@@ -43,7 +43,7 @@ namespace APIForAutomation.Api.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),

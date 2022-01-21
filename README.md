@@ -7,8 +7,8 @@ Depends:
 Usage
 ===============
 
-> Open the project on Visual Studio
-> Qpen package manager console
+Open the project on Visual Studio
+Open package manager console
 
 Type commands:
 ````

@@ -7,7 +7,9 @@ Depends:
 Usage
 ===============
 
-Open the project and open console tab on VS
+> Open the project on Visual Studio
+> Qpen package manager console
+
 Type commands:
 ````
 $ Add-Migration APIForAutomation

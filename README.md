@@ -7,7 +7,7 @@ Depends:
 Usage
 ===============
 
-Open the project on Visual Studio
+Open the project on Visual Studio<br>
 Open package manager console
 
 Type commands:

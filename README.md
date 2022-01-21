@@ -22,4 +22,4 @@ $ Update-database -verbose
 Run
 ===============
 
-Run project ApiForAutomation.Api or Docker
+Run project ApiForAutomation.Api 
